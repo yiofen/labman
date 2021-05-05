@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/magt_equt"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="@string/laboratory_equt_title"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="25dp"
+        android:gravity="center"/>
+
+    <com.ab.view.pullview.AbPullToRefreshView
+        android:id="@+id/mPullRefreshEqut"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background" >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scrollbars="none">
+
+                <TableLayout
+                    android:id="@+id/equt_table"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp">
+
+                </TableLayout>
+            </HorizontalScrollView>
+        </ScrollView>
+    </com.ab.view.pullview.AbPullToRefreshView>
+</LinearLayout>

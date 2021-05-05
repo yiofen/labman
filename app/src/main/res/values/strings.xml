@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">师大实验</string>
+
+    <!-- the title bar -->
+    <string name="turn_back">返回</string>
+
+    <!-- login page -->
+    <string name="login_account">账号</string>
+    <string name="login_pwd">密码</string>
+    <string name="login_btn">登录</string>
+    <string name="login_to_register"><u>创建一个新账号</u></string>
+    <string name="id_format">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="pwd_format">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.~</string>
+
+    <!-- error -->
+    <string name="error_name">请输入账号！</string>
+    <string name="error_name_length1">账号长度不能少于6个字符</string>
+    <string name="error_name_length2">账号长度不能超过16个字符</string>
+    <string name="error_name_expr">账号只能是字母和数字</string>
+    <string name="error_pwd">请输入密码！</string>
+    <string name="error_pwd_conf">请再次输入密码！</string>
+    <string name="error_pwd_match">两次密码输入不一致！</string>
+    <string name="error_pwd_length1">密码长度不能少于6个字符</string>
+    <string name="error_pwd_length2">密码长度不能超过20个字符</string>
+    <string name="error_name_exist">注册失败，当前账号已存在！</string>
+    <string name="error_info_complete">请将信息填写完整！</string>
+    <string name="error_id_input">账号输入错误，请重新输入！</string>
+    <string name="error_pwd_input">密码输入错误，请重新输入！</string>
+
+    <!-- register page -->
+    <string name="regt_account">请输入账号</string>
+    <string name="regt_pwd">密码</string>
+    <string name="regt_pwd_conf">请输入相同的密码</string>
+    <string name="regt_btn">注册</string>
+    <string name="cancel_btn">取消</string>
+    <string name="user_info">请填写个人信息</string>
+    <string name="user_name">姓名:</string>
+    <string name="user_age">年龄:</string>
+    <string name="user_sex">性别:</string>
+    <string name="user_tel">电话:</string>
+    <string name="user_class">班级:</string>
+
+    <!-- management page -->
+    <string name="magt_stud">人员管理</string>
+    <string name="magt_ware">仓库管理</string>
+    <string name="magt_equt">设备管理</string>
+    <string name="magt_duty">卫生安排</string>
+
+    <!-- management main -->
+    <string name="laboratory_main_title"><b>福建师范大学创客工坊</b></string>
+    <string name="laboratory_profile">
+        <i><b>简介</b></i>\n
+
+    </string>
+    <string name="laboratory_equt_title"><b>设备状态详情</b></string>
+    <string name="laboratory_duty_title"><b>卫生安排表</b></string>
+    <string name="laboratory_warehouse_title"><b>仓库详情</b></string>
+    <string name="laboratory_student_title"><b>实验室目前人员</b></string>
+    <string name="laboratory_about_us_title"><b>关于我们</b></string>
+    <string name="about_us">
+        <b>毕设题目:</b><i>基于Android的实验室管理系统开发</i>\n
+
+    </string>
+</resources>

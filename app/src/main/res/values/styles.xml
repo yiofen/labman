@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- logo -->
+    <style name="logo">
+        <item name="android:src">@mipmap/logo</item>
+        <item name="android:layout_marginTop">40dp</item>
+
+    </style>
+
+    <!-- the title bar -->
+    <style name="Main" parent="Theme.AppCompat.Light.NoActionBar"/>
+    <style name="li_title">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="btn_title">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="tv_title">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+
+    <!-- login page -->
+    <style name="li_login">
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center_horizontal|center</item>
+    </style>
+    <style name="et_login">
+        <item name="android:textSize">22sp</item>
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="btn_login">
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@color/btn_login_bg</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- register page -->
+    <style name="et_regt" parent="et_login"></style>
+    <style name="btn_regt" parent="btn_login">
+        <item name="android:layout_margin">5dp</item>
+    </style>
+    <style name="et_info">
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="tv_info">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!-- management page -->
+    <style name="btn_magt">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/btn_bg</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">35sp</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+    <style name="tr_magt">
+        <item name="android:layout_weight">2</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+    <style name="li_magt">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="gl_magt">
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+    </style>
+
+    <!-- Tab content -->
+    <style name="tv_tab_title" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <!-- about_us TextView  -->
+    <style name="tv_about_us">
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textColor">@color/tv_about_us</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>

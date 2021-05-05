@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp">
+
+    <TextView
+        android:id="@+id/update_text"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:duplicateParentState="true"
+        android:layout_marginLeft="20dp"
+        android:text="修改表格项item"
+        android:textColor="@color/gray"
+        android:textSize="23.0sp"/>
+
+
+    <EditText
+        android:id="@+id/update_edit_text"
+        android:layout_width="0dp"
+        android:layout_weight="1.0"
+        android:layout_height="match_parent"
+        android:textSize="22.0sp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/list_item_edit"
+        android:singleLine="true"
+        android:maxLines="1"/>
+
+
+</LinearLayout>

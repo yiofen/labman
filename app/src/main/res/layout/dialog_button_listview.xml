@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/main_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#58E2F0"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48.0dp" >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:paddingLeft="15.0dp"
+                android:paddingRight="15.0dp"
+                android:text="请选择接下来的操作"
+                android:textColor="@color/white"
+                android:textSize="18.0sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.0dp"
+            android:layout_weight="1.0">
+
+            <ListView
+                android:id="@+id/list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:cacheColorHint="#00000000"
+                android:divider="@drawable/list_divider"
+                android:dividerHeight="1px"
+                android:fadingEdge="none"
+                android:scrollbars="none" />
+<!--            android:listSelector="@color/gray_white"-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_panel"
+            android:layout_width="match_parent"
+            android:layout_height="50.0dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:weightSum="1.0" >
+
+            <LinearLayout
+                android:id="@+id/two_btn_panel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/left_btn"
+                    android:layout_width="0.0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/dialog_left_button_bg"
+                    android:text="cancel"
+                    android:textColor="#58E2F0"
+                    android:textSize="18.0sp" />
+
+                <View
+                    android:layout_width="1.0px"
+                    android:layout_height="match_parent"
+                    android:background="#ffd8d8d8" />
+
+                <Button
+                    android:id="@+id/right_btn"
+                    android:layout_width="0.0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/dialog_right_button_bg"
+                    android:text="ok"
+                    android:textColor="#58E2F0"
+                    android:textSize="18.0sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/one_btn_panel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <Button
+                    android:id="@+id/one_btn"
+                    android:layout_width="0.0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/dialog_one_button_bg"
+                    android:text="ok"
+                    android:textColor="#58E2F0"
+                    android:textSize="18.0sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

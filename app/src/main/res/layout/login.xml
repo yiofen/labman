@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.LoginActivity">
+
+    <ImageView
+        style="@style/logo"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/background">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            style="@style/li_login">
+
+
+            <EditText
+                android:id="@+id/login_account_et"
+                android:hint="@string/login_account"
+                android:digits="@string/id_format"
+                style="@style/et_login"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/login_pwd_et"
+                android:hint="@string/login_pwd"
+                style="@style/et_login"
+                android:inputType="textPassword"
+                android:digits="@string/pwd_format"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/login_btn"
+                android:text="@string/login_btn"
+                style="@style/btn_login"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="bottom|center"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/login_to_register"
+                android:text="@string/login_to_register"
+                android:textColor="@color/login_to_register"
+                android:layout_marginBottom="10dp"
+                android:textSize="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
